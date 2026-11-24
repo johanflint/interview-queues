@@ -1,0 +1,14 @@
+{
+  "name": "notification-worker",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:1": "node --test test/1-processing.test.js",
+    "test:2": "node --test test/2-retries.test.js",
+    "test:3": "node --test test/3-duplicates.test.js"
+  }
+}
